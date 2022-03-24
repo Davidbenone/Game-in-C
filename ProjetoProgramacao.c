@@ -217,7 +217,7 @@ int main(){
 			somaturno1 = 0;
 			somaturno1 = j1dado1 + j1dado2;
 			soma1 = soma1 + somaturno1;
-			printf("\n\nSoma dos dados: %d\nSoma do turno: %d", soma1, somaturno1);
+			printf("\n\nSoma total: %d\nSoma do turno: %d", soma1, somaturno1);
 			printf("\nVoce perdeu todos os seus pontos");
 			printf("\n\nTurno do jogador %s", nome2);
 			printf("\nPressione algum numero para continuar: ");
@@ -237,7 +237,7 @@ int main(){
 			somaturno1 = 0;
 			somaturno1 = j1dado1 + j1dado2;
 			soma1 = soma1 + somaturno1;
-			printf("\n\nSoma dos dados: %d\nSoma do turno: %d", soma1, somaturno1);
+			printf("\n\nSoma total: %d\nSoma do turno: %d", soma1, somaturno1);
 			printf("\nVoce perdeu os pontos do seu turno");
 			printf("\n\nTurno do jogador %s", nome2);
 			printf("\nPressione algum numero para continuar: ");
@@ -252,7 +252,7 @@ int main(){
 		{
 			somaturno1 = j1dado1 + j1dado2;
 			soma1 = soma1 + somaturno1;
-			printf("\n\nSoma dos dados: %d\nSoma do turno: %d", soma1, somaturno1);
+			printf("\n\nSoma total: %d\nSoma do turno: %d", soma1, somaturno1);
 		}
 		
 		if(soma1 >= 50) //Se o jogador 1 acumular 50 pontos ou mais ele ganha
