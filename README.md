@@ -1,36 +1,34 @@
-# Game-in-C
-
-#include <stdio.h>
-#include <stdint.h>
-#include <math.h>
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
+     #include <stdio.h>
+     #include <stdint.h>
+     #include <math.h>
+     #include <stdlib.h>
+     #include <time.h>
+    #include <string.h>
 
 
-int main(){
-	int comando; 
-	int repetir; 
-	int n; 
-	int n2; 
-	int n3;
-	int numeroAleatorio; 
- 	int resposta; 
- 	int chances; 
- 	char nome1[30]; 
-	char nome2[30];
-	int jogadorComecar; 
-	int j1dado1, j1dado2; 
-	int j2dado1, j2dado2; 
-	int jogarDados; 
-	int soma1;
-	int soma2; 
-	int somaturno1;
-	int somaturno2; 
-	int resposta1; 
-    int resposta2; 
-	int continuarFinalizar; 
-	int senha; 
+    int main(){
+	int comando; //Usada para escolher qual jogo voce quer jogar
+	int repetir; //Usada para jogar novamente ou voltar para o menu
+	int n; //Usada para recceber a resposta da primeira pergunta do jogador no jogo 1
+	int n2; //Usada para recceber a resposta da segunda pergunta do jogador no jogo 1
+	int n3; //Usada para recceber a resposta da terceira pergunta do jogador no jogo 1
+	int numeroAleatorio; //Usada no gerador de numeros aleatorios para o jogo 2
+ 	int resposta; //Usada para recceber as respostas do jogador no jogo 2
+ 	int chances; //define a quantidade de chances que o jogador tem no jogo 2
+ 	char nome1[30]; //Nome do jogador 1 para o jogo 3
+	char nome2[30]; //Nome do jogador 2 para o jogo 3
+	int jogadorComecar; //Usada para escolher qual jogador vai comecar no jogo 3
+	int j1dado1, j1dado2; //Dados 1 e 2 para o jogador 1
+	int j2dado1, j2dado2; //Dados 1 e 2 para o jogador 1
+	int jogarDados; //Jogar os dados no jogo 3
+	int soma1; //Soma total dos pontos no jogo 3 para o jogador 1
+	int soma2; //Soma total dos pontos no jogo 3 para o jogador 2
+	int somaturno1; //Soma dos pontos em cada turno no jogo 3 para o jogador 1
+	int somaturno2; //Soma dos pontos em cada turno no jogo 3 para o jogador 1
+	int resposta1; //Usada para recceber a resposta da primeira pergunta do jogador no easter egg
+        int resposta2; //Usada para recceber a resposta da segunda pergunta do jogador no easter egg
+	int continuarFinalizar; //Usada para continuar ou finalizar o turno no jogo 3
+	int senha; //Senha do easter egg
 	
 	menu:
 	system("cls");
