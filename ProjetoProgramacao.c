@@ -184,8 +184,6 @@ int main(){
 	
 	 	jogadorComecar = rand() % 2; //Vai gerar o numero 0 ou 1
  	
-	 	printf("%d\n", jogadorComecar);
- 	
 	 	if(jogadorComecar == 0)
  		{
  			printf("\nJogador %s ira comecar", nome1);
