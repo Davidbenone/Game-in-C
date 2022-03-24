@@ -1,8 +1,8 @@
-     #include <stdio.h>
-     #include <stdint.h>
-     #include <math.h>
-     #include <stdlib.h>
-     #include <time.h>
+    #include <stdio.h>
+    #include <stdint.h>
+    #include <math.h>
+    #include <stdlib.h>
+    #include <time.h>
     #include <string.h>
 
 
